@@ -1,0 +1,65 @@
+[
+  {
+    "n": "Projectile Motion",
+    "u": "https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html",
+    "i": "Investigate range, height and time for different launch conditions.",
+    "v": [],
+    "m": []
+  },
+  {
+    "n": "Forces & Motion Basics",
+    "u": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_en.html",
+    "i": "Push‐pull forces, mass and acceleration.",
+    "v": [],
+    "m": []
+  },
+  {
+    "n": "Ramp – Force and Motion",
+    "u": "https://phet.colorado.edu/sims/html/ramp-forces-and-motion/latest/ramp-forces-and-motion_en.html",
+    "i": "Explore forces on an inclined plane.",
+    "v": [],
+    "m": []
+  },
+  {
+    "n": "Pendulum Lab",
+    "u": "https://phet.colorado.edu/sims/html/pendulum-lab/latest/pendulum-lab_en.html",
+    "i": "Period vs length, mass, gravity and angle.",
+    "v": [],
+    "m": []
+  },
+  {
+    "n": "Masses & Springs",
+    "u": "https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html",
+    "i": "Hooke’s law, spring constant and SHM.",
+    "v": [],
+    "m": []
+  },
+  {
+    "n": "Energy Skate Park",
+    "u": "https://phet.colorado.edu/sims/html/energy-skate-park/latest/energy-skate-park_en.html",
+    "i": "KE ↔ PE transformations on a track.",
+    "v": [],
+    "m": []
+  },
+  {
+    "n": "Collision Lab",
+    "u": "https://phet.colorado.edu/sims/html/collision-lab/latest/collision-lab_en.html",
+    "i": "Elastic and inelastic collisions in 1-D and 2-D.",
+    "v": [],
+    "m": []
+  },
+  {
+    "n": "Gravity Force Lab",
+    "u": "https://phet.colorado.edu/sims/html/gravity-force-lab/latest/gravity-force-lab_en.html",
+    "i": "Investigate Newton’s law of gravitation.",
+    "v": [],
+    "m": []
+  },
+  {
+    "n": "Ladybug Revolution",
+    "u": "https://phet.colorado.edu/sims/html/ladybug-revolution/latest/ladybug-revolution_en.html",
+    "i": "Uniform circular motion and rotational variables.",
+    "v": [],
+    "m": []
+  }
+]

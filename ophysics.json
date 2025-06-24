@@ -1,0 +1,166 @@
+[
+  {
+    "n": "Uniform Accel (Graphs)",
+    "u": "https://ophysics.com/k4.html",
+    "i": "Adjust initial position, velocity and acceleration; watch x-t, v-t and a-t graphs.",
+    "v": ["Initial position (m)", "Initial velocity (m/s)", "Acceleration (m/s²)"],
+    "m": ["Displacement (m)", "Final velocity (m/s)"]
+  },
+  {
+    "n": "v-t Graph Builder",
+    "u": "https://ophysics.com/k4b.html",
+    "i": "Drag points on a v-t graph; x-t and a-t graphs auto-update.",
+    "v": [],
+    "m": []
+  },
+  {
+    "n": "Accel Graph Adjuster",
+    "u": "https://ophysics.com/k5.html",
+    "i": "Edit a four-segment a-t graph and observe resulting motion graphs.",
+    "v": ["Initial position (m)", "Initial velocity (m/s)",
+          "Accel seg A (m/s²)", "Accel seg B (m/s²)",
+          "Accel seg C (m/s²)", "Accel seg D (m/s²)"],
+    "m": []
+  },
+  {
+    "n": "v-t Graphs (Intervals)",
+    "u": "https://ophysics.com/k5a.html",
+    "i": "Piece-wise constant velocities; adjust heights and total time.",
+    "v": ["v₁ (m/s)", "v₂ (m/s)", "v₃ (m/s)", "Total time (s)"],
+    "m": ["Displacement (m)"]
+  },
+  {
+    "n": "Uniform Accel (Car)",
+    "u": "https://ophysics.com/k6.html",
+    "i": "Car with uniform acceleration; sliders for x₀, v₀ and a.",
+    "v": ["Initial position (m)", "Initial velocity (m/s)", "Acceleration (m/s²)"],
+    "m": ["Position (m)", "Velocity (m/s)"]
+  },
+  {
+    "n": "Two Cars 1-D",
+    "u": "https://ophysics.com/k7.html",
+    "i": "Independently control two cars; compare their motions.",
+    "v": ["Red x₀ (m)", "Red v₀ (m/s)", "Red a (m/s²)",
+          "Blue x₀ (m)", "Blue v₀ (m/s)", "Blue a (m/s²)"],
+    "m": ["Meet point (m)", "Meet time (s)"]
+  },
+  {
+    "n": "Projectile Motion",
+    "u": "https://ophysics.com/k8.html",
+    "i": "Change launch angle, speed and height; view trajectory & data.",
+    "v": ["Launch angle (°)", "Initial speed (m/s)", "Initial height (m)"],
+    "m": ["Range (m)", "Time of flight (s)", "Maximum height (m)"]
+  },
+  {
+    "n": "4-Angle Projectiles",
+    "u": "https://ophysics.com/k9.html",
+    "i": "Compare four projectiles under same-R, same-hₘₐₓ or same-v₀ scenarios.",
+    "v": ["Scenario"],
+    "m": ["Range (m)", "Max height (m)", "Flight time (s)"]
+  },
+  {
+    "n": "Monkey-Hunter",
+    "u": "https://ophysics.com/k10.html",
+    "i": "Classic tranquilizer-gun vs falling monkey problem.",
+    "v": ["Launch angle (°)", "Initial speed (m/s)", "Monkey height (m)"],
+    "m": ["Hit / miss"]
+  },
+  {
+    "n": "River Boat",
+    "u": "https://ophysics.com/k11.html",
+    "i": "Relative velocity across a river; adjust boat & river speeds.",
+    "v": ["Boat speed (m/s)", "Aim angle (°)", "River speed (m/s)"],
+    "m": ["Crossing time (s)", "Downstream drift (m)"]
+  },
+  {
+    "n": "Friction – Box",
+    "u": "https://ophysics.com/f1.html",
+    "i": "Pull a box on a surface; explore static and kinetic friction.",
+    "v": ["Tension (N)", "Pull angle (°)", "Mass (kg)", "μₛ", "μₖ"],
+    "m": ["Acceleration (m/s²)", "Friction force (N)"]
+  },
+  {
+    "n": "Incline Friction",
+    "u": "https://ophysics.com/f2.html",
+    "i": "Block on incline with friction; vary angle, μ and initial v.",
+    "v": ["Incline angle (°)", "Mass (kg)", "μₛ", "μₖ", "Initial velocity (m/s)"],
+    "m": ["Acceleration (m/s²)", "Stopping distance (m)"]
+  },
+  {
+    "n": "Atwood + Incline",
+    "u": "https://ophysics.com/f3.html",
+    "i": "Atwood machine where one mass sits on an incline.",
+    "v": ["m₁ (kg)", "m₂ (kg)", "Incline angle (°)", "μ"],
+    "m": ["Acceleration (m/s²)", "Tension (N)"]
+  },
+  {
+    "n": "Simple Pendulum",
+    "u": "https://ophysics.com/f3a.html",
+    "i": "Adjust length, release angle and g; view motion & energy.",
+    "v": ["Length (m)", "Initial angle (°)", "g (m/s²)"],
+    "m": ["Period (s)"]
+  },
+  {
+    "n": "Conical Pendulum",
+    "u": "https://ophysics.com/f4.html",
+    "i": "2-D conical pendulum; vary radius & speed.",
+    "v": ["Radius (m)", "Speed (m/s)"],
+    "m": ["Tension (N)", "Period (s)"]
+  },
+  {
+    "n": "Conical Pendulum 3-D",
+    "u": "https://ophysics.com/f5.html",
+    "i": "3-D conical pendulum; vary string length & speed.",
+    "v": ["String length (m)", "Speed (m/s)"],
+    "m": ["Period (s)"]
+  },
+  {
+    "n": "Orbits & Kepler",
+    "u": "https://ophysics.com/f6.html",
+    "i": "Planet-sun system; vary v₀, r₀ and M_sun.",
+    "v": ["Initial speed (m/s)", "Initial radius (m)", "Sun mass (kg)"],
+    "m": ["Orbital period (s)", "Eccentricity"]
+  },
+  {
+    "n": "Vertical Spring Energy",
+    "u": "https://ophysics.com/e1.html",
+    "i": "Mass on a vertical spring; explore KE, GPE & EPE.",
+    "v": ["Mass (kg)", "Spring constant (N/m)"],
+    "m": ["Amplitude (m)", "Period (s)"]
+  },
+  {
+    "n": "1-D Collisions",
+    "u": "https://ophysics.com/e2.html",
+    "i": "Elastic / inelastic collisions between two carts.",
+    "v": ["m₁ (kg)", "m₂ (kg)", "v₁₀ (m/s)", "v₂₀ (m/s)", "Elasticity (%)"],
+    "m": ["v₁′ (m/s)", "v₂′ (m/s)"]
+  },
+  {
+    "n": "Explosive Separation",
+    "u": "https://ophysics.com/e2a.html",
+    "i": "Two carts explode apart; vary masses and energy.",
+    "v": ["m₁ (kg)", "m₂ (kg)", "Explosive energy (J)", "Initial velocity (m/s)"],
+    "m": ["v₁′ (m/s)", "v₂′ (m/s)"]
+  },
+  {
+    "n": "Ballistic Pendulum",
+    "u": "https://ophysics.com/e3.html",
+    "i": "Bullet embeds in block; determine bullet speed.",
+    "v": ["Bullet mass (kg)", "Block mass (kg)", "Bullet speed (m/s)"],
+    "m": ["Swing height (m)"]
+  },
+  {
+    "n": "Spring-Drop Mass",
+    "u": "https://ophysics.com/e5.html",
+    "i": "Drop a mass onto an oscillating spring.",
+    "v": ["Dropped mass (kg)", "Initial phase"],
+    "m": ["Amplitude (m)", "Period (s)"]
+  },
+  {
+    "n": "Raft COM",
+    "u": "https://ophysics.com/e6.html",
+    "i": "Person walking on a floating raft; centre-of-mass conservation.",
+    "v": ["Person mass (kg)", "Raft mass (kg)", "Walking speed (m/s)"],
+    "m": ["Raft displacement (m)"]
+  }
+]
