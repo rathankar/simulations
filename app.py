@@ -69,7 +69,7 @@ if st.session_state.stage == 1:
             # blank 5×4 table
             st.session_state.data = [[None,None,None,None] for _ in range(5)]
             st.session_state.stage = 2
-            st.experimental_rerun()
+            st.rerun()
 
 # ----------  STAGE 2  DATA ENTRY ---------------------------------------------
 if st.session_state.stage == 2:
@@ -84,7 +84,7 @@ if st.session_state.stage == 2:
         else:
             st.session_state.data = edited.astype(str).values.tolist()
             st.session_state.stage = 3
-            st.experimental_rerun()
+            st.rerun()
 
 # ----------  STAGE 3  GET QUESTIONS FROM GEMINI ------------------------------
 if st.session_state.stage == 3:
@@ -109,7 +109,7 @@ if st.session_state.stage == 3:
         if len(st.session_state.Q)!=10: raise ValueError("Gemini returned wrong count")
         st.session_state.A = []
         st.session_state.stage = 4
-        st.experimental_rerun()
+        st.rerun()
     except Exception as e:
         st.error(f"Gemini error: {e}")
 
@@ -129,7 +129,7 @@ if st.session_state.stage == 4:
             st.session_state.A.append(ans.strip())
             if len(st.session_state.A)==10:
                 st.session_state.stage = 5
-            st.experimental_rerun()
+            st.rerun()
     if col2.button("Quit"): st.stop()
 
 # ----------  STAGE 5  GRADING -------------------------------------------------
@@ -163,4 +163,4 @@ if st.session_state.stage == 5:
     st.write(data["overall"])
     if st.button("🔄 Restart"):
         for k in ("stage","data","Q","A"): st.session_state.pop(k, None)
-        st.experimental_rerun()
+        st.rerun()
