@@ -43,7 +43,7 @@ if st.session_state.stage == 0:
             st.session_state.class_ = clas
             st.session_state.key   = api
             st.session_state.stage = 1
-            st.experimental_rerun()
+            st.rerun()
 
 # ----------  STAGE 1  SIM PICKER ---------------------------------------------
 if st.session_state.stage == 1:
